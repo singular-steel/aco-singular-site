@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "titulo": "Faca Chef Damasco",
+        "categoria": "faca",
+        "descricao": "Aço damasco 200 camadas, cabo em madeira nobre estabilizada. Ideal para a cozinha.",
+        "imagem": "assets/img/facas/faca-damasco-01.jpg", 
+        "destaque": true
+    },
+    {
+        "id": 2,
+        "titulo": "Katana Tameshigiri",
+        "categoria": "espada",
+        "descricao": "Forjada a mão, têmpera seletiva (Hamon), pronta para corte. Tsuka em seda preta.",
+        "imagem": "assets/img/espadas/katana-01.jpg",
+        "destaque": true
+    },
+     {
+        "id": 3,
+        "titulo": "Faca de Caça Tática",
+        "categoria": "faca",
+        "descricao": "Aço carbono 5160, robusta, guarda em latão. Desenhada para uso em campo.",
+        "imagem": "assets/img/facas/faca-tatico-02.jpg",
+        "destaque": false
+    },
+    {
+        "id": 4,
+        "titulo": "Espada Medieval Longa",
+        "categoria": "espada",
+        "descricao": "Espada de duas mãos com pomo em formato de disco. Balanceamento perfeito para treino.",
+        "imagem": "assets/img/espadas/longsword-02.jpg",
+        "destaque": false
+    }
+]

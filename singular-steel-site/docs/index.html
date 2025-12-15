@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singular Steel - Forja de Precisão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Singular<span>Steel</span></div>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="facas.html">Facas</a></li>
+            <li><a href="espadas.html">Espadas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#" id="open-search-btn">🔍 Buscar</a></li>
+        </ul>
+        <div>
+            <a href="admin.html" style="margin-right: 10px;">Admin</a>
+            <a href="login.html" class="nav-cta" id="user-btn">Login</a>
+        </div>
+    </nav>
+
+    <div id="search-overlay">
+        <span class="close-search" id="close-search-btn">&times;</span>
+        <input type="text" id="search-input" placeholder="Digite o que procura (ex: Katana, Chef)...">
+        <div id="search-results"></div>
+    </div>
+
+    <header style="height: 80vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/img/hero-bg.jpg') no-repeat center center/cover; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 4rem; color: var(--forge-orange); text-transform: uppercase;">Lâminas com Alma</h1>
+            <p style="font-size: 1.5rem; margin: 20px 0;">Facas e Espadas forjadas sob medida para quem exige excelência.</p>
+            <a href="portfolio.html" class="btn-forge" style="display: inline-block; width: auto; padding: 15px 40px;">Ver Nosso Trabalho</a>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="section-title">Destaques da Forja</h2>
+        <div class="portfolio-grid" id="featured-items-container">
+            </div>
+    </section>
+
+    <footer style="background: var(--forge-dark-metal); padding: 2rem; text-align: center; margin-top: 3rem;">
+        <p>© 2023 Singular Steel. Todos os direitos reservados.</p>
+        <p>Joinville, Santa Catarina - Brasil</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

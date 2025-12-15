@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Singular Steel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Singular<span>Steel</span></div>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="facas.html">Facas</a></li>
+            <li><a href="espadas.html">Espadas</a></li>
+            <li><a href="contato.html" style="color: var(--forge-orange);">Contato</a></li>
+            <li><a href="#" id="open-search-btn">🔍 Buscar</a></li>
+        </ul>
+        <div>
+            <a href="admin.html" style="margin-right: 10px;">Admin</a>
+            <a href="login.html" class="nav-cta" id="user-btn">Login</a>
+        </div>
+    </nav>
+
+    <div id="search-overlay">
+         <span class="close-search" id="close-search-btn">&times;</span>
+         <input type="text" id="search-input" placeholder="Buscar...">
+         <div id="search-results"></div>
+    </div>
+
+    <section class="container" style="min-height: 70vh;">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div style="display: flex; gap: 4rem; flex-wrap: wrap; justify-content: center;">
+            <div style="flex: 1; min-width: 300px;">
+                <h3 style="color: var(--forge-orange); margin-bottom: 1rem;">Informações</h3>
+                <p><strong>Endereço:</strong> Rua Ângelo Storrer 146, Joinville, SC - Brasil. CEP: 89216-53</p>
+                <p><strong>Email:</strong> singularsteel@gmail.com</p>
+                <p><strong>Whatsapp:</strong> +55 (47) 9 9977-5983</p>
+            </div>
+            
+            <div class="form-box" style="flex: 1; min-width: 300px;">
+                <form action="https://formspree.io/f/xgvgbvpv" method="POST">
+                    <input type="text" name="nome" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="mensagem" rows="5" placeholder="Sua mensagem ou ideia de projeto..." required></textarea>
+                    <button type="submit" class="btn-forge glow-effect">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

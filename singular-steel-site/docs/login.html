@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Singular Steel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Singular<span>Steel</span></div>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="facas.html">Facas</a></li>
+            <li><a href="espadas.html">Espadas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#" id="open-search-btn">🔍 Buscar</a></li>
+        </ul>
+        <div>
+            <a href="admin.html" style="margin-right: 10px;">Admin</a>
+            <a href="login.html" class="nav-cta" id="user-btn">Login</a>
+        </div>
+    </nav>
+
+    <section class="container" style="padding-top: 5rem; min-height: 70vh;">
+        <h2 class="section-title">Acesso do Forjador</h2>
+        
+        <div id="login-form" class="form-box">
+            <h3 style="color: var(--forge-orange); margin-bottom: 2rem;">Entrar</h3>
+            <form>
+                <input type="text" id="username-input" placeholder="Seu Nome de Usuário (Será o seu Perfil)" required>
+                <input type="password" placeholder="Sua Senha (Apenas simulação)" required>
+                <button type="submit" class="btn-forge glow-effect">Entrar na Forja</button>
+            </form>
+        </div>
+
+        <div id="profile-area" class="form-box" style="text-align: center; display: none;">
+            <h3 style="color: var(--forge-gold); margin-bottom: 1rem;">Bem-vindo(a) de volta!</h3>
+            <p style="font-size: 1.5rem; margin-bottom: 2rem;">Perfil de: <strong id="user-name-display"></strong></p>
+            
+            <a href="contato.html" class="btn-forge" style="width: auto; margin-bottom: 1rem; display: inline-block;">Fazer um Novo Pedido Sob Medida</a>
+
+            <button id="logout-btn" class="btn-forge" style="background: var(--forge-dark-metal); color: var(--forge-orange);">Sair da Conta</button>
+        </div>
+
+    </section>
+
+    <footer style="background: var(--forge-dark-metal); padding: 2rem; text-align: center; margin-top: 3rem;">
+        <p>© 2023 Singular Steel. Todos os direitos reservados.</p>
+        <p>Joinville, Santa Catarina - Brasil</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
